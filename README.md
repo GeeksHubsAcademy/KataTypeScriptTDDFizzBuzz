@@ -1,4 +1,4 @@
-# TDDFizzBuzz.net
+# TDDFizzBuzz
 Ejemplo de TDD con la kata FizzBuzz en **typescript**
 
 ## Enunciado.
@@ -29,6 +29,10 @@ FizzBuzz
 ... etc hasta el 100
 
 ```
+
+
+## 2º Fase
+Refactorizar para ir añadiendo nuevas reglas de negocio.
 
 ## Instalación.
 ```
