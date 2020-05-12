@@ -10,11 +10,11 @@ describe('FizzBuzz Testing', function (){
     test (' it Should Return Fizz If equals to Three',function (){
        
         //Arrange
-        let _fizzBuzz = new FizzBuzz();
+      
         const value= 3;
 
         //Act
-        let result  = _fizzBuzz.isFizz(value);
+        let result  = FizzBuzz.isFizz(value);
         
         //Assertion
         expect(result).toBeTruthy();
@@ -24,11 +24,10 @@ describe('FizzBuzz Testing', function (){
     test (' it Should Return Fizz If Divisible to Three',function(){
     
         //Arrange
-        let _fizzBuzz = new FizzBuzz();
         const value= 6;
 
         //Act
-        let result1  = _fizzBuzz.isFizz(value);
+        let result1  = FizzBuzz.isFizz(value);
         
         //Assertion
         expect(result1).toBeTruthy();
@@ -38,11 +37,10 @@ describe('FizzBuzz Testing', function (){
         test (' it Should Return Buzz If Divisible to Five',function(){
     
             //Arrange
-            let _fizzBuzz = new FizzBuzz();
             const value= 5;
     
             //Act
-            let result  = _fizzBuzz.isBuzz(value);
+            let result  = FizzBuzz.isBuzz(value);
             
             //Assertion
             expect(result).toBeTruthy();
@@ -53,11 +51,11 @@ describe('FizzBuzz Testing', function (){
         test (' it Should Return FizzBuzz If Divisible to 3 and 5',function(){
     
             //Arrange
-            let _fizzBuzz = new FizzBuzz();
+            
             const value= 15;
     
             //Act
-            let result  = _fizzBuzz.isFizzBuzz(value);
+            let result  = FizzBuzz.isFizzBuzz(value);
             
             //Assertion
             expect(result).toBeTruthy();
