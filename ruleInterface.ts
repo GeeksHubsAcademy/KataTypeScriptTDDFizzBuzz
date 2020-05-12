@@ -1,6 +1,6 @@
 export interface IruleInterface{
 
-    match(value:number):number
+    match(value:number):boolean
     getReplacement():string
     
 }

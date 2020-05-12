@@ -1,4 +1,5 @@
 import { FizzBuzz } from "./fizzBuzz";
+import  {fizzRule} from "./fizzRule";
 
 describe('FizzBuzz Testing', function (){
     /*test('First  Test', function () {
@@ -25,12 +26,14 @@ describe('FizzBuzz Testing', function (){
     
         //Arrange
         const value= 6;
+        var  _fizzRule = new fizzRule();
+
 
         //Act
-        let result1  = FizzBuzz.isFizz(value);
+        let result  = _fizzRule.match(value);
         
         //Assertion
-        expect(result1).toBeTruthy();
+        expect(result).toBeTruthy();
     
         })
 
@@ -76,6 +79,12 @@ describe('FizzBuzz Testing', function (){
             expect(input).toBe(result);
         
             })
+
+
+
+     
+
+
 
         
    
