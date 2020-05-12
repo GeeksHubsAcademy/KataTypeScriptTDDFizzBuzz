@@ -1,4 +1,4 @@
-export class fizzBuzz{
+export class FizzBuzz{
 
 
 }
