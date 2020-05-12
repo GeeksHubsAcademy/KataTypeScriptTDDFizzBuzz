@@ -35,6 +35,18 @@ describe('FizzBuzz Testing', function (){
     
         })
 
-
+        test (' it Should Return Buzz If Divisible to Five',function(){
     
+            //Arrange
+            let _fizzBuzz = new FizzBuzz();
+            const value= 5;
+    
+            //Act
+            let result  = _fizzBuzz.isBuzz(value);
+            
+            //Assertion
+            expect(result).toBeTruthy();
+        
+            })
+   
 });
