@@ -7,7 +7,7 @@ describe('FizzBuzz Testing', ()=>{
         expect(result).toBe(expected);
     })
 
-    test (' it Should Return Fizz If Divisible By Three',()=>{
+    test (' it Should Return Fizz If equals to Three',()=>{
        
         //Arrange
         let _fizzBuzz = new FizzBuzz();
