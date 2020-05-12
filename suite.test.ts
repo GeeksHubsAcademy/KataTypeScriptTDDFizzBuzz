@@ -61,5 +61,22 @@ describe('FizzBuzz Testing', function (){
             expect(result).toBeTruthy();
         
             })
+
+        test (' it Should Generate Correct Replacement For Number',function(){
+
+            //Arrange
+            
+            const value= 3;
+    
+            //Act
+            let  input  = FizzBuzz.getReplacement(value);
+            
+            const result  = "Fizz";
+            //Assertion
+            expect(input).toBe(result);
+        
+            })
+
+        
    
 });
