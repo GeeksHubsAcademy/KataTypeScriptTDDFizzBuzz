@@ -11,4 +11,8 @@ export class FizzBuzz{
         return (value % FizzBuzz.BUZZ_FACTOR === 0 ) ? true: false;
     }
 
+    public isFizzBuzz(value:number):boolean{
+        return this.isFizz(value) && this.isBuzz(value);
+    }
+
 }
