@@ -1,11 +1,14 @@
 export class FizzBuzz{
-
+ 
+    static FIZZ_FACTOR = 3;
+    static BUZZ_FACTOR = 5;
+    
     public isFizz(value:number):boolean {
-        return (value % 3 === 0) ? true: false;
+        return (value % FizzBuzz.FIZZ_FACTOR === 0) ? true: false;
     };
 
     public isBuzz(value:number):boolean {
-        return (value % 5 ===0) ? true: false;
+        return (value % FizzBuzz.BUZZ_FACTOR === 0 ) ? true: false;
     }
 
 }
