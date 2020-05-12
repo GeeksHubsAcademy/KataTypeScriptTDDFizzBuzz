@@ -15,4 +15,11 @@ export class FizzBuzz{
         return this.isFizz(value) && this.isBuzz(value);
     }
 
+    public static getReplacement(value:number):string{
+        if (this.isFizzBuzz(value)) return "FizzBuzz";
+        if (this.isBuzz(value)) return "Buzz";
+        if (this.isFizz(value)) return "Fizz";
+        return String(value)
+    }
+
 }
