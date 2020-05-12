@@ -48,5 +48,20 @@ describe('FizzBuzz Testing', function (){
             expect(result).toBeTruthy();
         
             })
+
+
+        test (' it Should Return FizzBuzz If Divisible to 3 and 5',function(){
+    
+            //Arrange
+            let _fizzBuzz = new FizzBuzz();
+            const value= 15;
+    
+            //Act
+            let result  = _fizzBuzz.isFizzBuzz(value);
+            
+            //Assertion
+            expect(result).toBeTruthy();
+        
+            })
    
 });
